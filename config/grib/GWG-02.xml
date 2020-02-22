@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- LG Uplus IoT Hub (GWG-02) -->
+<Product xmlns='https://github.com/OpenZWave/open-zwave' Revision="74">
+  <MetaData>
+    <MetaDataItem name="OzwInfoPage">http://www.openzwave.com/device-database/018B:0001:0002</MetaDataItem>
+    <MetaDataItem id="0001" name="ZWProductPage" type="0002">https://products.z-wavealliance.org/products/2384/</MetaDataItem>
+    <MetaDataItem name="Description">LGUplus IoT Hub is universal controller which can control several control groups. This IoT Hub can support full function of notification sensor, On/Off switch, Valve, Open/Closed and Door Lock products made for LGUplus. Other products made as general Z-Wave plus standard can be controlled with limited function. This is USB dongle type connected to LGUplus Home Gateway.</MetaDataItem>
+    <MetaDataItem name="Name">LG Uplus IoT Hub</MetaDataItem>
+    <MetaDataItem id="0001" name="Identifier" type="0002">GWG-02</MetaDataItem>
+    <MetaDataItem id="0001" name="FrequencyName" type="0002">South Korea</MetaDataItem>
+    <ChangeLog>
+      <Entry author="Jihyeok Kim - adcookie.jh@gmail.com" date="20 Feb 2020" revision="74">Initial Metadata Import from Z-Wave Alliance Database - https://products.z-wavealliance.org/products/2384/xml</Entry>
+    </ChangeLog>
+  </MetaData>
+  <!-- COMMAND_CLASS_ASSOCIATION.  This class is in the list reported by the Keyfob -->
+  <CommandClass id="133">
+    <Associations num_groups="1">
+      <Group index="1" max_associations="5" label="Lifeline" auto="false"/>
+    </Associations>
+  </CommandClass>
+</Product>

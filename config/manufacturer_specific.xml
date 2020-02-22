@@ -413,7 +413,12 @@
     <Product id="2000" name="RXZ3 RF relay Switching Unit" type="8004"/>
     <Product config="danfoss/living.xml" id="0001" name="Living Connect Radiator Thermostat" type="8005"/>
   </Manufacturer>
-  <Manufacturer id="018C" name="Dawon DNS"></Manufacturer>
+  <Manufacturer id="018C" name="Dawon DNS">
+    <Product config="dawon/SX40.xml" id="0001" name="IoT Light Switch 1 (PM-S140-ZW)" type="0061"/>
+    <Product config="dawon/SX40.xml" id="0001" name="IoT Light Switch 2 (PM-S240-ZW)" type="0062"/>
+    <Product config="dawon/SX40.xml" id="0001" name="IoT Light Switch 3 (PM-S340-ZW)" type="0063"/>
+    <Product config="dawon/B400.xml" id="0005" name="Smart Plug, 10A (PM-B400ZW-N)" type="0042"/>
+  </Manufacturer>
   <Manufacturer id="020A" name="Decoris Intelligent System Limited"></Manufacturer>
   <Manufacturer id="013F" name="Defacontrols BV"></Manufacturer>
   <Manufacturer id="032E" name="DEFARO"></Manufacturer>
@@ -823,7 +828,9 @@
     <Product config="greenwave/powernode6.xml" id="0004" name="PowerNode 6 port" type="0003"/>
   </Manufacturer>
   <Manufacturer id="0401" name="Grenton Sp. z o.o."></Manufacturer>
-  <Manufacturer id="018B" name="Grib"></Manufacturer>
+  <Manufacturer id="018B" name="Grib">
+    <Product config="grib/GWG-02.xml" id="0001" name="IoT Hub (GWG-02)" type="0002"/>
+  </Manufacturer>
   <Manufacturer id="0391" name="GUANGDONG PHNIX ECO-ENERGY SOLUTION LTD"></Manufacturer>
   <Manufacturer id="016D" name="Guangzhou Ruixiang M&amp;E Co. Ltd"></Manufacturer>
   <Manufacturer id="0158" name="GuangZhou Zeewave Information Technology Co. Ltd"></Manufacturer>

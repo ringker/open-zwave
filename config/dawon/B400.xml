@@ -1,0 +1,54 @@
+<Product Revision="2" xmlns="https://github.com/OpenZWave/open-zwave">
+  <MetaData>
+    <MetaDataItem name="OzwInfoPage">http://www.openzwave.com/device-database/018C:0005:0042</MetaDataItem>
+    <MetaDataItem id="0005" name="Identifier" type="0042">PM-B400ZW-N</MetaDataItem>
+    <MetaDataItem id="0005" name="ZWProductPage" type="0042">https://products.z-wavealliance.org/products/1607/</MetaDataItem>
+    <MetaDataItem id="0005" name="FrequencyName" type="0042">South Korea (KR)</MetaDataItem>
+    <MetaDataItem name="Name">Smart Plug, 10A (PM-B400ZW-N)</MetaDataItem>
+    <MetaDataItem name="Description">The apparatus can remotely power on/off to the load connected and will inform you of the electricity usage of your load. You can use it to measure the power of the load connected to the device (currently instantaneous power & accumulated power).</MetaDataItem>
+    <ChangeLog>
+      <Entry author="Jihyeok Kim - adcookie.jh@gmail.com" date="20 Feb 2020" revision="1">Initial Metadata Import</Entry>
+      <Entry author="Jihyeok Kim - adcookie.jh@gmail.com" date="22 Feb 2020" revision="2">Some Bug Fixed</Entry>
+    </ChangeLog>
+  </MetaData>
+  <!-- Configuration Parameters -->
+  <CommandClass id="112">
+    <Value type="byte" genre="config" instance="1" index="1" label="Standy Power Setting Value" units="" min="0" max="60000" size="4" value="0">
+      <Help>
+        Standy Power Setting Value
+      </Help>
+    </Value>
+    <Value type="list" genre="config" instance="1" index="2" label="Peridic Measurement Value Transmission" units="" min="0" max="1" size="1" value="1">
+        <Help>
+          Peridic Measurement Value Transmission
+        </Help>
+        <Item label="Off" value="0"/>
+        <Item label="On" value="1"/>
+    </Value>
+    <Value type="list" genre="config" instance="1" index="3" label="Accumulation Start/Stop" units="" min="0" max="1" size="1" value="0">
+        <Help>
+          Accumulation Start/Stop
+        </Help>
+        <Item label="Stop" value="0"/>
+        <Item label="Start" value="1"/>
+    </Value>
+    <Value type="list" genre="config" instance="1" index="4" label="Connected Device Use/Not Use" units="" min="0" max="1" size="1" value="0">
+        <Help>
+          Connected Device Use/Not Use
+        </Help>
+        <Item label="Not Use" value="0"/>
+        <Item label="Use" value="1"/>
+    </Value>
+    <Value type="byte" genre="config" instance="1" index="5" label="Periodic Time Intervals" units="" min="1" max="144" size="1" value="1">
+      <Help>
+        Periodic Time Intervals
+      </Help>
+    </Value>
+  </CommandClass>
+  <!-- COMMAND_CLASS_ASSOCIATION.  This class is in the list reported by the Keyfob -->
+  <CommandClass id="133">
+    <Associations num_groups="1">
+      <Group index="1" max_associations="5" label="Lifeline" auto="false"/>
+    </Associations>
+  </CommandClass>
+</Product>
