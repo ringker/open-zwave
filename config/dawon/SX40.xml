@@ -1,14 +1,17 @@
-<Product Revision="2" xmlns="https://github.com/OpenZWave/open-zwave">
+<Product Revision="1" xmlns="https://github.com/OpenZWave/open-zwave">
   <MetaData>
-    <MetaDataItem name="OzwInfoPage">http://www.openzwave.com/device-database/018C:0001:0002</MetaDataItem>
-    <MetaDataItem id="0001" name="Identifier" type="0002">PM-S340-ZW</MetaDataItem>
-    <MetaDataItem id="0001" name="FrequencyName" type="0002">South Korea (KR)</MetaDataItem>
-    <MetaDataItem name="Name">IoT Light Switch 3 (PM-S340-ZW)</MetaDataItem>
+    <MetaDataItem name="OzwInfoPage">http://www.openzwave.com/device-database/018C:0001:0061</MetaDataItem>
+    <MetaDataItem id="0001" name="Identifier" type="0061">PM-S140-ZW</MetaDataItem>
+    <MetaDataItem name="Name">IoT Light Switch</MetaDataItem>
     <MetaDataItem name="Description">This device is a smart light switch. It has 3 buttons, using 1 wire AC line. You can control the light from the remote or manually. Input AC power : 220V</MetaDataItem>
+    <MetaDataItem id="0001" name="FrequencyName" type="0061">South Korea (KR)</MetaDataItem>
     <ChangeLog>
-      <Entry author="Jihyeok Kim - adcookie.jh@gmail.com" date="20 Feb 2020" revision="1">Initial Metadata Import</Entry>
-      <Entry author="Jihyeok Kim - adcookie.jh@gmail.com" date="22 Feb 2020" revision="2">Some Bug Fixed</Entry>
+      <Entry author="Jihyeok Kim - adcookie.jh@gmail.com" date="8 Mar 2020" revision="1">Initial Metadata Import</Entry>
     </ChangeLog>
+    <MetaDataItem id="0001" name="Identifier" type="0062">PM-S240-ZW</MetaDataItem>
+    <MetaDataItem id="0001" name="FrequencyName" type="0062">South Korea (KR)</MetaDataItem>
+    <MetaDataItem id="0001" name="Identifier" type="0063">PM-S340-ZW</MetaDataItem>
+    <MetaDataItem id="0001" name="FrequencyName" type="0063">South Korea (KR)</MetaDataItem>
   </MetaData>
   <!-- Configuration Parameters -->
   <CommandClass id="112">

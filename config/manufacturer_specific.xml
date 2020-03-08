@@ -418,6 +418,8 @@
     <Product config="dawon/SX40.xml" id="0001" name="IoT Light Switch 2 (PM-S240-ZW)" type="0062"/>
     <Product config="dawon/SX40.xml" id="0001" name="IoT Light Switch 3 (PM-S340-ZW)" type="0063"/>
     <Product config="dawon/B400.xml" id="0005" name="Smart Plug, 10A (PM-B400ZW-N)" type="0042"/>
+    <Product config="dawon/SPD-0XA.xml" id="0001" name="Smart Plug, 10A (SPD-01A)" type="0042"/>
+    <Product config="dawon/SPD-0XA.xml" id="0007" name="Smart Plug, 10A (SPD-02A)" type="0042"/>
   </Manufacturer>
   <Manufacturer id="020A" name="Decoris Intelligent System Limited"></Manufacturer>
   <Manufacturer id="013F" name="Defacontrols BV"></Manufacturer>
@@ -473,7 +475,9 @@
   <Manufacturer id="031B" name="DVACO GROUP"></Manufacturer>
   <Manufacturer id="0132" name="DynaQuip Controls"></Manufacturer>
   <Manufacturer id="010D" name="e-Home AUTOMATION"></Manufacturer>
-  <Manufacturer id="0247" name="EASY SAVER Co. Inc"></Manufacturer>
+  <Manufacturer id="0247" name="LG Uplus">
+    <Product config="lguplus/SPES-02A.xml" id="0002" name="Smart Plug, 10A (SPES-02A)" type="0042"/>
+  </Manufacturer>
   <Manufacturer id="001A" name="Eaton"></Manufacturer>
   <Manufacturer id="017C" name="EbV"></Manufacturer>
   <Manufacturer id="016B" name="Echostar"></Manufacturer>
@@ -829,7 +833,7 @@
   </Manufacturer>
   <Manufacturer id="0401" name="Grenton Sp. z o.o."></Manufacturer>
   <Manufacturer id="018B" name="Grib">
-    <Product config="grib/GWG-02.xml" id="0001" name="IoT Hub (GWG-02)" type="0002"/>
+    <Product config="grib/GWG-02.xml" id="0001" name="LG Uplus IoT Hub (GWG-02)" type="0002"/>
   </Manufacturer>
   <Manufacturer id="0391" name="GUANGDONG PHNIX ECO-ENERGY SOLUTION LTD"></Manufacturer>
   <Manufacturer id="016D" name="Guangzhou Ruixiang M&amp;E Co. Ltd"></Manufacturer>
