@@ -1402,7 +1402,9 @@
   <Manufacturer id="040F" name="RATOC Systems Inc"></Manufacturer>
   <Manufacturer id="0370" name="Raylios"></Manufacturer>
   <Manufacturer id="021E" name="Red Bee Co. Ltd"></Manufacturer>
-  <Manufacturer id="022C" name="Remote Solution"></Manufacturer>
+  <Manufacturer id="022C" name="Remote Solution">
+    <Product config="lguplus/OSR-01.xml" id="0001" name="Open Sensor" type="0003"/>
+  </Manufacturer>
   <Manufacturer id="0255" name="Remote Technologies Incorporated"></Manufacturer>
   <Manufacturer id="5254" name="Remotec">
     <Product config="remotec/zurc.xml" id="531f" name="Z-URC" type="0000"/>
